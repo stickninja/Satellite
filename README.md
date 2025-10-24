@@ -10,3 +10,14 @@ LowOrbit - This is a low density support script meant to be used on models with 
 HighOrbit - This is a high density support script meant to be used on models that are figures, such as tabletop gaming miniatures. A raft/baseboard will be generated.
 
 Both LowOrbit and HighOrbit have the same tip size (0.250mm), but LowOrbit has a thicker diameter support (0.900mm), while HighOrbit is thinner (0.800mm).
+
+#Basic Process
+
+1. Orient the model
+2. Enter Support mode
+3. Select GroundControl - Manually Edit. Run island detection and then manually place anchor supports as needed.
+4. Back out of Support mode
+5. Enter Support mode
+6. Select either LowOrbit or HighOrbit
+7. Generate Automatic Supports - do not delete existing supports (anchors)
+8. Save file as a Satellite project in case future edits are required.
